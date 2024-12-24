@@ -13,8 +13,3 @@ keywords:
 home: https://github.com/element-hq/dendrite
 sources:
   - https://github.com/element-hq/dendrite
-dependencies:
-  - name: postgresql
-    version: 14.2.3
-    repository: https://charts.bitnami.com/bitnami
-    condition: postgresql.enabled
